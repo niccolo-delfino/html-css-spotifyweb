@@ -1,0 +1,110 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* DEBUG */
+.blu{
+  background-color: blue;
+}
+
+.rosso{
+  background-color: red;
+}
+
+.porpora{
+  background-color: purple;
+}
+
+.viola{
+  background-color: violet;
+}
+
+/* STYLE */
+.container{
+  width: 100%;
+  height: 100vh;
+  background-color: pink;
+}
+
+/* MAIN */
+main{
+  display: flex;
+}
+
+.main-nav{
+  width: 250px;
+  height: 100%;
+}
+
+.main-content{
+  width: 100%;
+  height: 100%;
+}
+
+/* FOOTER */
+footer{
+  width: 100%;
+  height: 90px;
+  position: fixed;
+  bottom:0;
+  left: 0;
+  background-color: grey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* / */
