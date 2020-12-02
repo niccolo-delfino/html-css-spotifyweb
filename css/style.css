@@ -1,16 +1,10 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 /* DEBUG */
-.blu{
-  background-color: blue;
+.lightblu{
+  background-color: lightblue;
 }
 
-.rosso{
-  background-color: red;
+.arancio{
+  background-color: orange;
 }
 
 .porpora{
@@ -23,6 +17,36 @@
 
 .font-large{
   font-size: 40px;
+}
+
+/* WRITING */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+.mb-10{
+  margin-bottom: 10px;
+}
+.mb-30{
+  margin-bottom: 30px;
+}
+
+.pl-20{
+  padding-left: 20px;
+}
+
+.pr-20{
+  padding-right: 20px;
 }
 
 /* STYLE */
@@ -47,10 +71,51 @@ main{
   justify-content: space-between;
 }
 
+.main-nav-top .main-nav-logo{
+  width: 100%;
+  padding: 20px;
+}
+
+.main-nav-top .main-nav-logo img{
+  width: 65%;
+}
+
+.main-nav-top ul img{
+  height: 30px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+/* PLAYLIST */
+.main-nav-center h2{
+  margin: 10px 0px;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.main-nav-center span{
+
+}
+
+.main-nav-center span::before{
+  content: "+";
+  font-size: 35px;
+  background-color: rgba(255, 255, 255, 0.6);
+  color: black;
+  padding: 2px 12px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
 .main-nav-playlist{
   flex-grow: 2;
   min-height: 100px;
   overflow-y: auto;
+}
+
+/* NAV BOTTOM */
+.main-nav-bottom h3{
+border-bottom: 1px solid grey;
 }
 
 /* CONTENT */
