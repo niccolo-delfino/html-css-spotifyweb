@@ -48,8 +48,33 @@ main{
 
 /* CONTENT */
 .main-content{
-  width: 100%;
+  width: calc(100% - 250px);
   height: 100%;
+}
+
+.main-upgrade{
+  width: calc(100% - 250px);
+  height: 90px;
+  position: fixed;
+  top:0;
+  right:0;
+  z-index: 1;
+  background-color: rgba(11, 11, 11, 0.52);
+  text-align: right;
+  padding-right: 20px;
+  line-height: 90px;
+}
+.main-upgrade .btn {
+  padding: 10px 25px;
+  border-radius: 20px;
+  border: 1px solid white;
+}
+
+.main-upgrade a.btn {
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 /* FOOTER */
