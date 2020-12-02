@@ -21,11 +21,16 @@
   background-color: violet;
 }
 
+.font-large{
+  font-size: 40px;
+}
+
 /* STYLE */
 .container{
   width: 100%;
   height: 100vh;
   background-color: pink;
+  overflow: hidden;
 }
 
 /* MAIN */
@@ -42,14 +47,18 @@ main{
   justify-content: space-between;
 }
 
-.main-nav-center{
+.main-nav-playlist{
   flex-grow: 2;
+  min-height: 100px;
+  overflow-y: auto;
 }
 
 /* CONTENT */
 .main-content{
   width: calc(100% - 250px);
   height: 100%;
+  padding-top: 90px;
+  overflow-y: scroll;
 }
 
 .main-upgrade{
