@@ -220,23 +220,22 @@ main{
 .main-content .recently .albums{
   width: calc(100% / 6 - 10px);
   margin-top: 30px;
+  margin-right: 10px;
 }
 
 .main-content .recently-music{
   display: flex;
-  justify-content: space-between;
 }
 
 .main-content .recently-music h3{
-  font-size: 14px;
+  font-size: 15px;
 }
 .main-content .recently-music span{
-  font-size: 12px;
+  font-size: 13px;
 }
 
 .main-content .recently img{
   width: 100%;
-  margin-right: 10px;
 }
 
 
@@ -298,6 +297,15 @@ main .main-nav-bottom .profile h4{
   }
   .main-content .recently .albums{
     width: calc(100% / 4 - 10px);
+  }
+}
+
+@media screen and (max-width: 768px){
+  .main-content .recently-music{
+    flex-wrap: wrap;
+  }
+  .main-content .recently .albums{
+    width: calc(100% / 2 - 10px);
   }
 }
 
