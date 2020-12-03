@@ -44,9 +44,14 @@ a{
   font-size: 13px;
 }
 
+.mt-20{
+  margin-top: 20px;
+}
+
 .mb-10{
   margin-bottom: 10px;
 }
+
 .mb-30{
   margin-bottom: 30px;
 }
@@ -57,6 +62,10 @@ a{
 
 .pr-20{
   padding-right: 20px;
+}
+
+.text-center{
+  text-align: center;
 }
 
 /* STYLE */
@@ -166,7 +175,7 @@ main{
   overflow-y: scroll;
   background-color: #141922;
 }
-
+/* CONTENT UPGRADE */
 .main-upgrade{
   width: calc(100% - 250px);
   height: 90px;
@@ -191,6 +200,12 @@ main{
   font-size: 15px;
   text-decoration: none;
   text-transform: uppercase;
+}
+/* CONTENT MUSIC */
+.main-content .menu-bar li{
+  display: inline;
+  text-transform: uppercase;
+  padding-right: 20px;
 }
 
 /* FOOTER */
