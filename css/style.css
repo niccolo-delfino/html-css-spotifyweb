@@ -90,6 +90,11 @@ main{
   width: 65%;
 }
 
+.main-nav-top .main-nav-logo-xs img{
+  width: 65%;
+  display: none;
+}
+
 .main-nav-top ul img{
   height: 30px;
   vertical-align: middle;
@@ -174,6 +179,7 @@ main{
   padding-right: 20px;
   line-height: 90px;
 }
+
 .main-upgrade .btn {
   padding: 10px 25px;
   border-radius: 20px;
@@ -204,8 +210,41 @@ footer{
 
 
 
+/* MEDIA */
+@media screen and (max-width: 600px){
+main .main-nav{
+  width: 60px;
+}
+
+.main-content{
+  width: calc(100% - 60px);
+}
+
+.main-upgrade{
+  width: calc(100% - 60px);
+}
+
+main .main-nav *{
+  padding: 0 ;
+  text-align: center;
+}
+
+.main-nav-top .main-nav-logo-xs img{
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.main-nav-top .main-nav-logo,
+main .main-nav-center,
+main .main-nav-playlist,
+main .main-nav span,
+main .main-nav-bottom a,
+main .main-nav-bottom .profile h4{
+  display: none;
+}
 
 
+}
 
 
 
