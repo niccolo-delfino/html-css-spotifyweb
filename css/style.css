@@ -202,11 +202,43 @@ main{
   text-transform: uppercase;
 }
 /* CONTENT MUSIC */
+.main-content{
+  color: white;
+}
+
 .main-content .menu-bar li{
   display: inline;
   text-transform: uppercase;
   padding-right: 20px;
 }
+
+.main-content .recently{
+  margin: 20px;
+}
+
+/* RECENTLY */
+.main-content .recently .albums{
+  width: calc(100% / 6 - 10px);
+  margin-top: 30px;
+}
+
+.main-content .recently-music{
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-content .recently-music h3{
+  font-size: 14px;
+}
+.main-content .recently-music span{
+  font-size: 12px;
+}
+
+.main-content .recently img{
+  width: 100%;
+  margin-right: 10px;
+}
+
 
 /* FOOTER */
 footer{
@@ -258,10 +290,16 @@ main .main-nav-bottom .profile h4{
   display: none;
 }
 
-
 }
 
-
+@media screen and (max-width: 1024px){
+  .main-content .recently-music{
+    flex-wrap: wrap;
+  }
+  .main-content .recently .albums{
+    width: calc(100% / 4 - 10px);
+  }
+}
 
 
 
