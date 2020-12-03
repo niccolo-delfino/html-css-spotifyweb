@@ -26,12 +26,22 @@
   box-sizing: border-box;
 }
 
+body{
+  font-family: 'Montserrat', sans-serif;
+  color: grey;
+}
+
 ul{
   list-style: none;
 }
 
 a{
   text-decoration: none;
+  color: grey;
+}
+
+.fs-13{
+  font-size: 13px;
 }
 
 .mb-10{
@@ -87,14 +97,19 @@ main{
 }
 
 /* PLAYLIST */
+.main-nav{
+  background-color: black;
+}
+
+.main-nav ul li{
+  padding-bottom: 10px;
+}
+
 .main-nav-center h2{
   margin: 10px 0px;
   font-size: 15px;
   text-transform: uppercase;
-}
-
-.main-nav-center span{
-
+  color: white;
 }
 
 .main-nav-center span::before{
@@ -102,7 +117,7 @@ main{
   font-size: 35px;
   background-color: rgba(255, 255, 255, 0.6);
   color: black;
-  padding: 2px 12px;
+  padding: 0px 12px;
   margin-right: 10px;
   vertical-align: middle;
 }
@@ -114,8 +129,29 @@ main{
 }
 
 /* NAV BOTTOM */
-.main-nav-bottom h3{
-border-bottom: 1px solid grey;
+.main-nav-bottom .app{
+  border-bottom: 1px solid grey;
+  padding-bottom: 10px;
+}
+
+.main-nav-bottom .app img{
+  height: 13px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.main-nav-bottom .profile img{
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+  margin-right: 5px;
+  background-color: grey;
+  border-radius: 50%;
+}
+
+.main-nav-bottom .profile h4{
+  display: inline-block;
+  color: white;
 }
 
 /* CONTENT */
