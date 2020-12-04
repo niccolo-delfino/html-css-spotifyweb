@@ -48,6 +48,14 @@ a{
   margin-top: 20px;
 }
 
+.mt-40{
+  margin-top: 40px;
+}
+
+.ml-20{
+  margin-top: 20px;
+}
+
 .mb-10{
   margin-bottom: 10px;
 }
@@ -206,36 +214,48 @@ main{
   color: white;
 }
 
+.main-content span{
+  font-size: 13px;
+  color: grey;
+}
+
 .main-content .menu-bar li{
   display: inline;
   text-transform: uppercase;
   padding-right: 20px;
 }
 
-.main-content .recently{
+
+/* RECENTLY - CREATO - ARTISTI*/
+.main-content h2,
+.main-content span{
+  margin-left: 20px;
+}
+
+.main-content .music{
   margin: 20px;
 }
 
-/* RECENTLY */
-.main-content .recently .albums{
-  width: calc(100% / 6 - 10px);
-  margin-top: 30px;
-  margin-right: 10px;
+.main-content .music .albums{
+  width: calc(100% / 6 - 15px);
+  margin-right: 15px;
 }
 
-.main-content .recently-music{
+.main-content .music{
   display: flex;
 }
 
-.main-content .recently-music h3{
+.main-content .music h3{
   font-size: 15px;
-}
-.main-content .recently-music span{
-  font-size: 13px;
+  margin: 10px 0px;
 }
 
-.main-content .recently img{
+.main-content .music img{
   width: 100%;
+}
+
+.main-content .artisti img{
+  border-radius: 50%;
 }
 
 
@@ -292,20 +312,20 @@ main .main-nav-bottom .profile h4{
 }
 
 @media screen and (max-width: 1024px){
-  .main-content .recently-music{
+  .main-content .music{
     flex-wrap: wrap;
   }
-  .main-content .recently .albums{
-    width: calc(100% / 4 - 10px);
+  .main-content .music .albums{
+    width: calc(100% / 4 - 15px);
   }
 }
 
 @media screen and (max-width: 768px){
-  .main-content .recently-music{
+  .main-content .music{
     flex-wrap: wrap;
   }
-  .main-content .recently .albums{
-    width: calc(100% / 2 - 10px);
+  .main-content .music .albums{
+    width: calc(100% / 2 - 15px);
   }
 }
 
