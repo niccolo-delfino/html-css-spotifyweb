@@ -15,6 +15,10 @@
   background-color: violet;
 }
 
+.rosa{
+  background-color: pink;
+}
+
 .font-large{
   font-size: 40px;
 }
@@ -276,16 +280,40 @@ footer{
   justify-content: space-between;
 }
 
+/* LETTORE ALBUM */
 .lettore-album{
   width: 250px;
-  height: 100%
+  height: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
+.lettore-album h4{
+  font-size: 13px;
+  color: white;
+}
+
+.lettore-album span{
+  font-size: 11px;
+}
+
+.lettore-album .album-img{
+  width: 25%;
+}
+
+.lettore-album .album-img img{
+  width: 100%;
+}
+
+/* LETTORE PLAYER */
 .lettore-player{
   width: 50%;
   height: 100%
 }
 
+/* LETTORE VOLUME */
 .lettore-volume{
   width: 250px;
   height: 100%
