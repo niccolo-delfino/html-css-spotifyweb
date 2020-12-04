@@ -269,7 +269,27 @@ footer{
   background-color: grey;
 }
 
+.lettore{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
 
+.lettore-album{
+  width: 250px;
+  height: 100%
+}
+
+.lettore-player{
+  width: 50%;
+  height: 100%
+}
+
+.lettore-volume{
+  width: 250px;
+  height: 100%
+}
 
 
 
@@ -308,7 +328,6 @@ main .main-nav-bottom a,
 main .main-nav-bottom .profile h4{
   display: none;
 }
-
 }
 
 @media screen and (max-width: 1024px){
