@@ -295,7 +295,8 @@ footer{
   color: white;
 }
 
-.lettore-album span{
+.lettore-album span,
+.player-time span{
   font-size: 11px;
 }
 
@@ -311,7 +312,6 @@ footer{
 .lettore-player{
   width: 50%;
   height: 100%;
-  text-align: center;
 }
 
 .player-up{
@@ -319,17 +319,49 @@ width: 100%;
 height: 50%;
 display: flex;
 justify-content: center;
-align-items: center;
+align-items: flex-end;
 }
 
 .player-up a{
   font-size: 20px;
-  margin-right: 10px;
+  margin-right: 15px;
   color: white;
 }
 
 .player-up i.fa-play-circle{
   font-size: 30px;
+}
+
+.player-down{
+width: 100%;
+height: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.player-down .player-bar{
+width: 60%;
+height: 5px;
+margin: 0 20px;
+}
+
+.player-time span{
+  color: white;
+}
+
+.player-bar-w{
+  width: 20%;
+  height: 5px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.player-bar-g{
+  width: 100%;
+  height: 5px;
+  background-color: grey;
+  border-radius: 5px;
 }
 
 
