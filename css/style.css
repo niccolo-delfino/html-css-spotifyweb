@@ -87,6 +87,26 @@ a{
   overflow: hidden;
 }
 
+a:hover{
+  color: white;
+}
+
+.main-nav a:hover{
+  border-left: 3px solid #adff2f;
+}
+
+.main-content .main-upgrade .btn:hover{
+  transform: scale(1.2);
+}
+
+.main-content .menu-bar a:hover{
+  border-bottom: 3px solid #adff2f;
+}
+
+.player-up i.fa-play-circle:hover{
+  transform: scale(1.2);
+}
+
 /* MAIN */
 main{
   height: calc(100% - 90px);
@@ -197,19 +217,19 @@ main{
   z-index: 1;
   background-color: rgba(11, 11, 11, 0.52);
   text-align: right;
-  padding-right: 20px;
-  line-height: 90px;
+  padding:25px 30px;
 }
 
 .main-upgrade .btn {
-  padding: 10px 25px;
+  padding: 12px 35px;
   border-radius: 20px;
   border: 1px solid white;
+  display: inline-block;
 }
 
 .main-upgrade a.btn {
   color: white;
-  font-size: 15px;
+  font-size: 12px;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -330,6 +350,8 @@ align-items: flex-end;
 
 .player-up i.fa-play-circle{
   font-size: 30px;
+  vertical-align: middle;
+  display: inline-block;
 }
 
 .player-down{
