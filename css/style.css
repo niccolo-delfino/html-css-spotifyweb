@@ -121,8 +121,18 @@ a:hover{
   opacity: 1;
 }
 
-.main-content .music .music-cover-hover:hover .fa-play-circle{
+.main-content .music .music-cover-hover:hover .fa-play-circle,
+.player-bar:hover .player-bar-w i{
   opacity: 1;
+}
+
+.albums:hover,
+.player-bar:hover{
+  cursor: pointer;
+}
+
+.player-bar:hover .player-bar-w{
+  background-color: #adff2f;
 }
 
 /* MAIN */
@@ -425,6 +435,17 @@ margin: 0 20px;
   height: 5px;
   background-color: white;
   border-radius: 5px;
+  position: relative;
+}
+
+.player-bar-w i{
+  position: absolute;
+  top: 50%;
+  right: -5px;
+  transform: translateY(-50%);
+  font-size: 15px;
+  color: white;
+  opacity: 0;
 }
 
 .player-bar-g{
@@ -433,6 +454,8 @@ margin: 0 20px;
   background-color: grey;
   border-radius: 5px;
 }
+
+
 
 /* LETTORE VOLUME */
 .lettore-volume{
