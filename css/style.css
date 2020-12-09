@@ -538,6 +538,15 @@ main .main-nav-bottom .profile h4{
   }
 }
 
+@media screen and (max-height: 320px){
+  .main-upgrade{
+    display: none;
+  }
+  .main-content{
+    padding-top: 0;
+  }
+}
+
 
 
 
