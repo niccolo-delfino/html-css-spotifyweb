@@ -538,7 +538,7 @@ main .main-nav-bottom .profile h4{
   }
 }
 
-@media screen and (max-height: 320px){
+@media screen and (max-height: 350px){
   .main-upgrade{
     display: none;
   }
